@@ -1,0 +1,9 @@
+.navbar {
+    background-color: black !important;
+  }
+
+  .company-name {
+    font-family: Rozha One, serif;
+    color: #f5d69c;
+    font-size: 1.5rem;
+  }
