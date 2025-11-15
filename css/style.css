@@ -1,9 +1,64 @@
 .navbar {
-    background-color: black !important;
-  }
+  background-color: black !important;
+}
 
-  .company-name {
-    font-family: Rozha One, serif;
-    color: #f5d69c;
-    font-size: 1.5rem;
-  }
+.company-name {
+  font-family: "Rozha One", serif;
+  color: #f5d69c;
+  font-size: 1.5rem;
+}
+
+
+
+#hero {
+  background-image: url(../images/hero_section_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#hero .d-flex{
+  height: 70vh;
+}
+
+
+#hero h1 {
+  font-family: "Rozha One", serif;
+}
+
+#hero p {
+  font-family: "Rozha One", serif;
+}
+
+.section-id {
+  font-family: "Rozha One", serif;
+}
+
+.card-book .card-title{
+  font-family: "Rozha One", serif;
+}
+
+#card-book{
+  background-color: #000000; 
+  color: #f5d69c;            
+  border: 1px solid #f5d69c; 
+}
+
+.card-book img{
+  width: 100%;
+  height: 450px;
+}
+
+#new-releases h2,
+#featured h2 {
+  font-family: "Rozha One", serif;
+}
+
+
+.footer {
+  background-color: #000 !important; 
+  color: #fff !important;            
+}
+
+
