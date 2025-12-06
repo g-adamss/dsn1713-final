@@ -2,6 +2,17 @@
   background-color: black !important;
 }
 
+.login-signup-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #FBF0DD;
+  color: #6A3D08;
+  text-decoration: none;
+}
+
 .company-name {
   font-family: "Rozha One", serif;
   color: #f5d69c;
@@ -57,20 +68,39 @@
   font-family: "Rozha One", serif;
 }
 
-#card-book{
-  background-color: #000000; 
-  color: #f5d69c;            
-  border: 1px solid #f5d69c; 
+.card-book{
+  background-color: #FBF0DD; 
+  color: #6A3D08;            
+  border: 10px solid #FBF0DD; 
+  padding: 25px;
   margin: 25px;
+  border-radius: 10px;
 }
+
+
+
+.home-book-btn {
+  font-family: "Rozha One", sans-serif;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #6A3D08;
+  color: #FBF0DD;
+  text-decoration: none;
+}
+
 
 .card-book img{
  height: 300px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #new-releases h2,
 #featured h2 {
   font-family: "Rozha One", serif;
+  color: #6A3D08;
 }
 
 #cafe-items h2 {
@@ -78,7 +108,7 @@
 }
 
 .card-food {
-  background-color: #f5d69c;
+  background-color: #FBF0DD;
   margin: 20px;
   border-radius: 10px;
 }
@@ -118,7 +148,7 @@
 }
 
 .cart-book{
-  background-color: #f5d69c;
+  background-color: #FBF0DD;
   border-radius: 10px;
   margin: 25px;
 }
@@ -132,10 +162,31 @@
 .cart-book {
   display: flex;
   align-items: flex-start;
+  gap: 25px;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
 }
  
 .cart-book .card-title{
   font-family: "Rozha One", serif;
+  color: #6A3D08;
+}
+
+.cart-book h4 {
+  font-family: "Rozha One", serif;
+  margin-top: 10px;
+  color: #6A3D08;
+}
+
+.cart-book h3 {
+  font-family: "Rozha One", serif;
+  color: #6A3D08;
+}
+
+.cart-book p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 15px;
 }
 
 .cart-items .container {
@@ -144,12 +195,34 @@
 
 .cart-summary {
 font-family: "Rozha One", serif;  
-
+color: #6A3D08;
 }
 
 
+.cart-guest-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #FBF0DD;
+  color: #6A3D08;
+  text-decoration: none;
+}
+
+.cart-login-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #6A3D08;
+  color: #FBF0DD;
+  text-decoration: none;
+}
+
 .footer {
-  background-color: #000 !important; 
+  background-color: black !important; 
   color: #fff !important;            
 }
 
