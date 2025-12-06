@@ -7,29 +7,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="#">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="images/black-squirrel-books-logo.jpg" alt="logo" width="50" height="50" class="d-inline-block align-text-center">
                 <span class="company-name">Black Squirrel</span>
-            </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav align-items">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home!</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="cafe.html">Our Cafe!</a>
-                  </li
-                </ul> 
-            </div>    
-        </nav> 
+                <form class="d-flex ms-auto me-3" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <a href="#" class="login-signup-btn me-3">Login/Sign Up</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cafe.html">Our Cafe!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
     
 
@@ -41,12 +48,13 @@
         <div class="cart-book">
           <img src="images/mjst.avif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title">A Court Of Mist And Fury</h5>
-            <h4>$$$</h4>
+            <h2 class="card-title">A Court Of Mist And Fury</h2>
+            <h4>Author Name</h4>
+            <p>The text here would be a synopsis for the book. Vague details on the hero’s journey, setting, characters, etc are included. Subject matter would also be here, as well as relevant genres.</p>
           </div>
+          <h3 class="price">$00.00</h3>
         </div>
       </div>
-
   </div>
 
   <div class="container">
@@ -55,12 +63,13 @@
         <div class="cart-book">
           <img src="images/throne of glass.avif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title">Throne of Glass</h5>
-            <h4>$$$</h4>
+            <h2 class="card-title">Throne of Glass</h2>
+            <h4>Author Name</h4>
+            <p>The text here would be a synopsis for the book. Vague details on the hero’s journey, setting, characters, etc are included. Subject matter would also be here, as well as relevant genres.</p>
           </div>
+          <h3 class="price">$00.00</h3>
         </div>
       </div>
-
   </div>
 
   <div class="container">
@@ -69,9 +78,11 @@
         <div class="cart-book">
           <img src="images/teeth.avif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title">Nothing But Blackened Teeth</h5>
-            <h4>$$$</h4>
+            <h2 class="card-title">Nothing But Blackened Teeth</h2>
+            <h4>Author Name</h4>
+            <p>The text here would be a synopsis for the book. Vague details on the hero’s journey, setting, characters, etc are included. Subject matter would also be here, as well as relevant genres.</p>
           </div>
+          <h3 class="price">$00.00</h3>
         </div>
       </div>
 
@@ -85,10 +96,13 @@
     <h4>Subtotal: $$$</h4>
     <h4>Savings: $$$</h4>
     <h4>Tax: HST 13%: $$$</h4>
-    <h2 class="d-flex justify-content-end">Total: $$$</h2>
+    <h2 class="d-flex justify-content-between">
+      <span>Total:</span>
+      <span>$$$</span>
+    </h2>
     <div class="mt-3 text-center">
-      <a href="#" class="btn btn-light">Checkout As A Guest</a>
-      <a href="#" class="btn btn-light">Login and Checkout</a>
+      <a href="#" class="cart-guest-btn">Checkout As A Guest</a>
+      <a href="#" class="cart-login-btn">Login and Checkout</a>
     </div>
   </div>
 </section>
