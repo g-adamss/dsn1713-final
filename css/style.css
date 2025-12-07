@@ -167,6 +167,11 @@
   font-family: 'Rozha One', serif;
 }
 
+#cart-items h2.your-cart {
+  font-family: "Rozha One", serif;
+  margin-left: 30px;
+}
+
 .cart-book{
   background-color: #FBF0DD;
   border-radius: 10px;
@@ -257,4 +262,11 @@ color: #6A3D08;
 .footer h3 {
   color: #FBF0DD;
   font-family: "Rozha One", serif;
+}
+
+
+#cart-items h2.your-cart {
+  font-family: 'Rozha One', serif !important;
+  color: #6A3D08; /* optional */
+  font-size: 2rem; /* optional */
 }
